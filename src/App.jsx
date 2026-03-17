@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar.jsx";
 import SignUp from "./pages/SignUp.jsx";
 import Login from "./pages/Login.jsx";
 import "./App.css";
+import Footer from "./components/Footer.jsx";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/Contact" element={<Contact />} />
       </Routes>
       <Toaster />
+      <Footer/>
     </main>
   );
 }
